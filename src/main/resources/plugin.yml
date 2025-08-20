@@ -1,0 +1,27 @@
+name: PremiumVote
+version: 1.0-SNAPSHOT
+main: com.akashplugin.PremiumVote
+api-version: 1.21
+authors: [Akash Chowdhury]
+description: Made By Akash Chowdhury
+
+commands:
+  vote:
+    description: Opens the voting menu.
+    usage: /vote
+    permission: premiumvote.use
+    default: all
+    aliases: [voting, votemenu, pvgui, pvote, pvoting]
+  election:
+    description: Manage elections (alias for vote)
+    usage: /election <start|stop|run|vote|results>
+    permission: premiumvote.election.use
+    default: all
+    aliases: [election, elections , pvelection, pvelections , pv]
+  results:
+    description: View past election results or list them
+    usage: /results <electionName>|list
+    permission: premiumvote.results.use
+    aliases: [voteresults, electionresults, pvresults, pvelectionresults]
+depend:
+  - ProtocolLib
