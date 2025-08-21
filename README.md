@@ -30,9 +30,6 @@ While everything is GUI-driven, permissions control access:
 | `premiumvote.run`             | Register as candidate           |
 | `premiumvote.results`         | View election results           |
 
-## 📷 Preview
-*(Add screenshots/GIFs of your GUI here when ready)*
-
 ## 📌 Notes
 - Built for **Spigot / Paper 1.16+** (may work on older versions).  
 - Requires Java 8 or higher.  
